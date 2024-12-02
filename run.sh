@@ -1,6 +1,8 @@
 #!/bin/bash
 set -euf -o pipefail
 
+export AOC_SESSION=53616c7465645f5f5e6bd47d8c453579a73b4cd4b5c064692badfafe4150900c1fac59d91e1b7d79c385190482b8d6afb9fc9128095f075a328cfe7dd131e30b
+
 # functions
 function echogrey() {
 	echo -e "\033[0;90m$1\033[0m"
